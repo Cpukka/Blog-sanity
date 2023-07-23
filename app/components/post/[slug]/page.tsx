@@ -29,7 +29,7 @@ export default async function SlugPage({
     }
 
     return (
-        <div className="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
+        <div className="xl:divide-y xl:divide-gray-400 xl:dark:divide-gray-700">
             <header className="pt-6 xl:pb-6">
                 <div className="space-y-1 text-center">
                     <div className="space-y-10">
@@ -43,7 +43,7 @@ export default async function SlugPage({
                     </div>
                     <div>
                         <h1 className="text-3xl font-extrabold leading-9
-                        tracking-light text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl">
+                        tracking-light text-gray-800 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl">
                             {data.title}
                         </h1>
                     </div>
