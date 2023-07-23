@@ -1,4 +1,4 @@
-import { ImageUrlBuilder } from "@sanity/image-url/lib/types/builder";
+import ImageUrlBuilder  from "@sanity/image-url/lib/types/builder";
 import { client } from "./sanity";
 
 const builder = ImageUrlBuilder(client);
